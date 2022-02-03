@@ -2,7 +2,7 @@
 
   <% unless enhanced_cart.product[0] %>
     <h4 class="alert">Your cart is empty.</h4>
-    <div class="alert"><%= link_to 'Back to Home', '/' %></div>
+    <div class="alert"><%= link_to "Back to Home", root_path, class: 'btn btn-sm btn-primary' %></div>
   <% else %>
 
   <header class="page-header">
