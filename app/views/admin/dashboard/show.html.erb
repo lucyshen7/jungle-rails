@@ -1,4 +1,5 @@
-<h2 class="jumbotron">My Dashboard</h2>
+<h2 class="jumbotron title">My Dashboard<span class="glyphicon glyphicon-user"></span></h2>
+
 <div class="panel panel-primary">
   <div class="panel-heading">
     <h3 class="panel-title">Number of products:</h3>
@@ -13,8 +14,11 @@
     <h3 class="panel-title">Number of categories:</h3>
   </div>
   <div class="panel-body link">
-    <%= @categories_count %>
-    <%= link_to "See all categories", '/categories/1', class: 'btn btn-sm btn-primary' %>
+    <%= @categories.length %>
+
+    <% @categories.each do |cat| %>
+      <%= link_to "See Category: #{cat.name}", "/categories/#{cat.id}", class: 'btn btn-sm btn-primary' %>
+    <% end %>
   </div>
 </div>
 
