@@ -9,7 +9,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
-      redirect_to '/signup', alert: "Unable to register. Please make sure you have no empty fields and that your passwords match."
+      redirect_to '/signup', alert: "Unable to register. Your password and password confirmation do not match."
     end
   end
 
