@@ -5,4 +5,7 @@
   <td>
     <%= link_to 'See Category', "/categories/#{category.id}", class: 'btn btn-info' %>
   </td>
+    <td>
+    <h4><%= category.products.count %></h4>
+  </td>
 </tr>
