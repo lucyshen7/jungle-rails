@@ -1,6 +1,26 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+## Welcome to the Jungle 🦧
+
+### In the Jungle, the Mighty Jungle... 
+
+Jungle is a mini e-commerce application was built with Rails 4.2. This project uses an existing Ruby on Rails codebase with newly implemented features and bug fixes.
+
+Features include:
+🛒 Admin Dashboard
+🛒 User Registration and Login
+🛒 Order Confirmation Page
+🛒 Ability to add new categories and products
+🛒 Sold Out Badge
+
+# Final Product
+
+!["Homepage"](/docs/homepage.png)
+!["My Cart"](/docs/my-cart.png)
+!["Order Confirmation"](/docs/orders-confirm.png)
+!["Admin Dashboard"](/docs/admin-dash.png)
+!["Products Dashboard"](/docs/products-dash.png)
+!["Categories Dashboard"](/docs/categories-dash.png)
 
 ## Additional Steps for Apple M1 Machines
 

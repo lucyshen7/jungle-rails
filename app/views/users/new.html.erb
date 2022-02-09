@@ -5,11 +5,11 @@
 <% end %>
 
 <%= form_for :user, url: '/users' do |f| %>
-
-  Name: <%= f.text_field :name, required: true %>
-  Email: <%= f.text_field :email, required: true %>
-  Password: <%= f.password_field :password, required: true %>
-  Password Confirmation: <%= f.password_field :password_confirmation, required: true %>
+  First Name: <%= f.text_field :first_name, required: true, class: 'form-control' %>
+  Last Name: <%= f.text_field :last_name, required: true, class: 'form-control' %>
+  Email: <%= f.text_field :email, required: true, class: 'form-control' %>
+  Password: <%= f.password_field :password, required: true, class: 'form-control' %>
+  Password Confirmation: <%= f.password_field :password_confirmation, required: true, class: 'form-control' %>
   <%= f.submit "Submit" %>
 
 <% end %>
