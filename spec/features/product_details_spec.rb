@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "Visitor navigates to product details page", type: :feature, js: true do
+RSpec.feature "ProductDetails", type: :feature, js: true do
 
   # SETUP
   before :each do
@@ -17,7 +17,7 @@ RSpec.feature "Visitor navigates to product details page", type: :feature, js: t
     end
   end
 
-    scenario "They see product details when they click on Details" do
+    scenario "They see product details when they click on Details for a product" do
       # ACT
       visit root_path
       first('.product').click_on('Details')
