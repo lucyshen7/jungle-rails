@@ -13,17 +13,17 @@
 
 # Final Product
 
-## Homepage
+## Homepage ✨
 !["Homepage"](/docs/homepage.png)
 ## Cart 🛒
 !["My Cart"](/docs/my-cart.png)
-## Order Confirmation
+## Order Confirmation ✅
 !["Order Confirmation"](/docs/orders-confirm.png)
-## Admin Dashboard
+## Admin Dashboard ✨ 
 !["Admin Dashboard"](/docs/admin-dash.png)
-## Products Dashboard
+## Products Dashboard 👗
 !["Products Dashboard"](/docs/products-dash.png)
-## Categories Dashboard
+## Categories Dashboard 🛍
 !["Categories Dashboard"](/docs/categories-dash.png)
 
 ## Additional Steps for Apple M1 Machines
