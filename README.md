@@ -6,11 +6,16 @@
 
 Jungle is a mini e-commerce application was built with Rails 4.2. This project uses an existing Ruby on Rails codebase with newly implemented features and bug fixes.
 
-Features include:
+*Features include:*
+
 🛒 Admin Dashboard
+
 🛒 User Registration and Login
+
 🛒 Order Confirmation Page
+
 🛒 Ability to add new categories and products
+
 🛒 Sold Out Badge
 
 # Final Product
