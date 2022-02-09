@@ -1,10 +1,10 @@
 # Jungle
 
-## Welcome to the Jungle 🦥
-
-#### In the Jungle, the Mighty Jungle... 
+## Welcome to the Jungle! 🦥
 
 **Jungle** is a mini e-commerce application was built with Rails 4.2. This project uses an existing Ruby on Rails codebase with newly implemented features and bug fixes.
+
+*In the Jungle, the Mighty Jungle...* 
 
 **Features include:**
 
